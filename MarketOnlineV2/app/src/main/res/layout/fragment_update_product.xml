@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorDivider"
+    tools:context="com.jic.marketonlinev2.View.MainScreen.Fragment.UpdateProductFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:id="@+id/imageView5"
+        app:srcCompat="@drawable/shopdorm" />
+
+    <TextView
+        android:text="Product's Name"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:background="@color/colorDivider" />
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:maxLength="50"
+        android:ems="10"
+        android:hint="Enter your Product's Name"
+        android:paddingLeft="6dp"
+        android:id="@+id/etUpdateProName"
+        android:layout_width="350dp"
+        android:textSize="15dp"
+        android:background="@drawable/focus_color"
+        android:layout_marginBottom="15dp"
+        android:layout_height="31dp" />
+
+    <TextView
+        android:text="Product's Price"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:background="@color/colorDivider" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:inputType="number"
+        android:hint="Enter Product's Price"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:paddingLeft="6dp"
+        android:maxLength="10"
+        android:textSize="15dp"
+        android:id="@+id/etUpdateProPrice"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/focus_color"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16" />
+
+    <TextView
+        android:text="Product's Image"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:background="@color/colorDivider" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="166dp"
+        android:id="@+id/ivUpdateImageProduct"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/focus_color"
+        android:layout_weight="0.36" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBackUpdatePro"
+            android:layout_weight="0.01"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="20dp"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+        <Button
+            android:text="Update"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:layout_weight="0.01"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnUpdatePro"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+    </LinearLayout>
+
+</LinearLayout>

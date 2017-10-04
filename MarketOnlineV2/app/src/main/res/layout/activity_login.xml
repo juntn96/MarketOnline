@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".View.LoginAndRegister.LoginActivity"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+    <ViewStub
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewStub"
+        android:layout_gravity="right" />
+
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="201dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/market_stand"
+        android:layout_weight="0.35" />
+
+    <AutoCompleteTextView
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/tvLoginMail"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/tvLoginPass"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#f78ef3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_weight="0.10" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Password"
+        android:id="@+id/cbRemember"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:textColor="#0670f3"
+        android:singleLine="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Or"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="Create new account"
+        android:id="@+id/btnRegister"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13dp" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:text="Forgot ?"
+        android:id="@+id/btnForgot"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:textSize="12dp"
+        android:background="#ffffff"
+        android:textColor="#f41e1e" />
+
+
+
+</LinearLayout>

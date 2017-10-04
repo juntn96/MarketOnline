@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorDivider"
+    tools:context="com.jic.marketonlinev2.View.MainScreen.Fragment.UpdateProductFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:id="@+id/imageView5"
+        app:srcCompat="@drawable/shopdorm" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Hoa Ban Food"
+            android:layout_width="172dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvViewStoreName"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_weight="0.99"
+            android:layout_marginLeft="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/basket"
+            android:id="@+id/btnViewBasket"
+            android:background="@color/colorDivider"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvViewStore" />
+
+
+</LinearLayout>

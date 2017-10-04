@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:weightSum="1"
+    android:background="@color/colorDivider">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/shopdorm"
+        android:id="@+id/imageView6" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_weight="0.46" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_weight="0.44">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                app:srcCompat="@mipmap/user"
+                android:id="@+id/imageView2" />
+
+            <EditText
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:text="Lam Ngoc Khanh"
+                android:gravity="center_horizontal|center_vertical"
+                android:ems="10"
+                android:id="@+id/etEditName"
+                android:layout_width="280dp"
+                android:layout_marginBottom="15dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_menu_manage"
+                android:id="@+id/btnEditName"
+                android:background="@color/colorDivider" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/mail"
+                android:id="@+id/imageView3"
+                android:background="@color/colorDivider" />
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"
+                android:text="lamngockhanh@gmail.com"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:id="@+id/etEditMail" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_menu_manage"
+                android:id="@+id/btnEditMail"
+                android:background="@color/colorDivider" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/phoneicon"
+                android:id="@+id/imageView4" />
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:inputType="phone"
+                android:text="0965917064"
+                android:gravity="center_horizontal|center_vertical"
+                android:ems="10"
+                android:id="@+id/etEditPhone" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_menu_manage"
+                android:id="@+id/btnEditPhone"
+                android:background="@color/colorDivider" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:text="Change Password"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnChangePass"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginBottom="15dp" />
+
+</LinearLayout>
+

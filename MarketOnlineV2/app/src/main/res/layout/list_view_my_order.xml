@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:gravity="center_horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:elevation="12dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="To:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:text="Hoa Ban Food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMyOrderStoreName"
+                android:layout_weight="1"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="27dp"
+                app:srcCompat="@android:drawable/ic_delete"
+                android:id="@+id/btnDeleteMyOrder"
+                android:background="@color/common_google_signin_btn_text_dark_pressed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:text="Status: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:text="Waiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/tvMyOrderStatus" />
+        </LinearLayout>
+
+        <TextView
+            android:text="Order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_background"
+            android:id="@+id/tvMyOrder" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

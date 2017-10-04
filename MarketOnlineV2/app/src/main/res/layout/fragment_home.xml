@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.jic.marketonlinev2.View.MainScreen.Fragment.HomeFragment"
+    android:background="@color/colorDivider"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/shopdorm"
+        android:id="@+id/imageView7"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame">
+
+        <TextView
+            android:text="Locale"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:id="@+id/textView2"
+            android:layout_weight="0.07"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spHomeLocale" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvStore" />
+
+</LinearLayout>

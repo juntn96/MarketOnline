@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:gravity="center_horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="362dp"
+        android:layout_height="319dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:layout_weight="0.11"
+        android:elevation="12dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:text="From:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:text="khanh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvStoreBuyerName"
+                android:layout_weight="1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:text="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:elevation="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStoreBuyerAddress"
+            android:layout_weight="0.09"
+            android:background="@android:drawable/editbox_background" />
+
+        <TextView
+            android:text="Order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStoreBuyerOrder"
+            android:layout_weight="0.26"
+            android:background="@android:drawable/editbox_background" />
+
+        <TextView
+            android:text="Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStoreBuyerMes"
+            android:layout_weight="0.60"
+            android:background="@android:drawable/editbox_background" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Accept"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:id="@+id/btnStoreAccept"
+                style="@style/Widget.AppCompat.Button.Colored" />
+
+            <Button
+                android:text="Decline"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:id="@+id/btnStoreDecline"
+                style="@style/Widget.AppCompat.Button.Colored" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

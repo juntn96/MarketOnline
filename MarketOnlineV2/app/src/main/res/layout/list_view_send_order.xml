@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/colorDivider"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="@color/colorWhite"
+        android:layout_weight="0.01">
+
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSendOrderProName"
+            android:gravity="center_vertical"
+            android:text="banh da" />
+
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:background="@color/colorSecondaryText"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:text="1"
+            android:layout_width="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="match_parent"
+            android:id="@+id/tvSendOderProQuantity"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13"
+            android:background="@color/colorSecondaryText"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:text="200.00000"
+            android:layout_width="83dp"
+            android:gravity="center_vertical|right"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSendOrderProPrice"
+            android:layout_weight="0.51"
+            android:layout_marginRight="20dp" />
+        <TextView
+            android:text="VNĐ"
+            android:gravity="center_vertical|right"
+            android:layout_height="match_parent"
+            android:id="@+id/textView101"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/common_ic_googleplayservices"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/common_ic_googleplayservices"
+            android:title="My Information" />
+        <item
+            android:id="@+id/nav_myShop"
+            android:icon="@drawable/common_ic_googleplayservices"
+            android:title="My Store" />
+        <item
+            android:id="@+id/nav_myOrder"
+            android:icon="@drawable/common_ic_googleplayservices"
+            android:title="My Order" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/common_ic_googleplayservices"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_copyright"
+                android:icon="@drawable/common_ic_googleplayservices"
+                android:title="Copyright" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/common_ic_googleplayservices"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>

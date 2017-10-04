@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.jic.marketonlinev2.View.MainScreen.Fragment.MyStoreFragment"
+    android:background="@color/colorDivider"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/shopdorm"
+        android:id="@+id/imageView8" />
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:id="@+id/lvMyStorePro" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Add a Product"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddProduct"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+        <Button
+            android:text="Update Store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnUpdateMyStore"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="Check Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheckOrder"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+</LinearLayout>

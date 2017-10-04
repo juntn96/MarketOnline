@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "42527600266",
+    "firebase_url": "https://market-v2.firebaseio.com",
+    "project_id": "market-v2",
+    "storage_bucket": "market-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42527600266:android:d19245b0988459cd",
+        "android_client_info": {
+          "package_name": "com.jic.marketonlinev2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42527600266-2dmoo4e14kdhgdhmicnqqkm5vua0l17n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGEWxOc8LmC3TstH_-T27c4vhRp0s041I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

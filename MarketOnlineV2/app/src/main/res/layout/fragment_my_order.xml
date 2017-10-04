@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorDivider"
+    tools:context="com.jic.marketonlinev2.View.MainScreen.Fragment.MyOrderFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:id="@+id/imageView5"
+        app:srcCompat="@drawable/shopdorm" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvMyOrder" />
+
+
+</LinearLayout>

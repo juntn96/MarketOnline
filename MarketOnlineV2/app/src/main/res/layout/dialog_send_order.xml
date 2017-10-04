@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_forgot"
+    android:weightSum="1"
+    android:background="@color/colorDivider">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1"
+        android:background="@color/colorDivider">
+
+
+        <TextView
+            android:text="Total Money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="0.06"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="200.000.000 VND"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTotalMoney"
+            android:layout_weight="0.06"
+            android:gravity="center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="0.37"
+            android:id="@+id/btnConfirmSend" />
+
+    </LinearLayout>
+
+</FrameLayout>

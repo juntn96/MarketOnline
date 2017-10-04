@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:gravity="center_horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/editbox_background"
+        android:elevation="0dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_weight="0.71"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/side_nav_bar"
+            android:id="@+id/ivProductImg"
+            android:layout_width="134dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="142dp">
+
+            <TextView
+                android:text="banh mi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvProductName"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:text="500.000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvProductPrice"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/addbasket"
+                android:id="@+id/ivAddBasket" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
